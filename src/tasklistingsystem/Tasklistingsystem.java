@@ -44,7 +44,7 @@ public class Tasklistingsystem {
          System.out.print("Enter Account ID to Delete: ");
          int id = sc.nextInt();
          
-         String sql = "DELETE FROM employee_task WHERE acc_id = ?";
+         String sql = "DELETE FROM employee_acc WHERE acc_id = ?";
         
         config conf = new config();
         conf.updateRecord(sql, id);
